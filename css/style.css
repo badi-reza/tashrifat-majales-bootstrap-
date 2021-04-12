@@ -1,0 +1,468 @@
+ @font-face {
+  font-family: 'yekan';
+  src: url('../fonts/Yekan.eot?#') format('eot'),  
+       url('../fonts/Yekan.woff') format('woff'),
+       url('../fonts/Yekan.ttf') format('truetype');
+  font-style:normal;
+  font-weight:normal;
+}
+
+@font-face {
+  font-family: 'nazanin';
+  src: url('../fonts/Nazanin.eot?#') format('eot'),  
+       url('../fonts/Nazanin.woff') format('woff'),
+       url('../fonts/Nazanin.ttf') format('truetype');
+  font-style:normal;
+  font-weight:normal;
+}
+
+.f{
+	
+
+	background: rgba(255, 255, 255, 0.9);
+	position:fixed;
+	height:140px;
+	padding:0px 0px;
+	z-index:100;
+}
+
+.f1{
+	/* background-color: rgba(255,255,255,0.1); */
+	background-color:transparent;
+	height:60%;
+	background-image:url(../img/ژوان-1.png);
+	background-size:22% 100%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+.f2{
+	height:35%;
+	padding:0px 0px;
+	margin-top:5px;
+}
+
+.f2a{
+	height:100%;
+}
+
+.min-height{
+	min-height:1000px !important;
+}
+
+.colorgry{
+	color:lightgray !important;
+}
+
+.aa:hover{
+	background-color:black !important;
+	color:white !important;
+}
+
+.btn1:hover{
+	background-color:#f5d20c;
+	color:white;
+	-webkit-transition:background-color 0.8s;
+	-webkit-transition:color 0.3s;
+	border:1px solid #f5d20c;
+}
+
+.btn1{
+	border:1px solid white;
+	background-color:white;
+}
+
+.dropdown-menu{
+	display:none !important;
+}
+
+.dropdown:hover .dropdown-menu{
+	display:block !important;
+}
+
+.posscroll{
+	position:parallex !important;
+}
+
+.s{
+	height:885px;
+	background-color:transparent;
+	position:relative;
+	z-index:1;
+	top:50px;
+}
+
+.e{
+	height:160px;
+	background-color:white;
+	position:relative;
+	top:75px;
+	z-index:2;
+	border:2px solid #f5d20c;
+}
+
+.e1{
+	height:400px;
+	background-color:white;
+	position:relative;
+	top:-380px;
+	z-index:2;
+	border:2px solid #f5d20c;
+}
+
+.g1{
+	height:400px;
+	background-color:white;
+	top:-200px;
+	z-index:2;
+	border:2px solid #f5d20c;
+}
+
+.g{
+	background-image:url(../img/تخفیف-زمستانه-1.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	height:160px;
+	background-color:red;
+	position:relative;
+	top:100px;
+	z-index:2;
+	border:2px solid #f5d20c;
+}
+
+.a{
+	height:100% !important;
+	background-size:100% 100% !important;
+	background-position:center 500px !important;
+	padding:0px !important;
+}
+
+.ax1{
+	background-color:black ;
+	background: rgba(0, 0, 0, 0.6);
+	height:50px ;
+	color:white ;
+	top:-500px;
+}
+
+.ax2{
+	background-color:black ;
+	background: rgba(0, 0, 0, 0.6);
+	height:60px ;
+	color:white ;
+	top:-438px;
+}
+
+.bagh{
+	height:400px;
+}
+
+
+.baghkh{
+	height:2px;
+}
+
+.gallery{
+	height:50px;
+}
+
+.aaa{
+	height:300px;
+}
+
+.pic1{
+	background-image:url(../img/1J1A0136-1.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	border-radius:3px;
+}.pic2{
+	background-image:url(../img/757A0050-1.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	border-radius:3px;
+}.pic3{
+	background-image:url(../img/1J1A0042-1.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	border-radius:3px;
+}.pic4{
+	background-image:url(../img/1J1A00888-1.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	border-radius:3px;
+}
+
+.image1{
+	background-image:url(../img/package.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	vertical-align: middle;
+	
+}
+.image1a{
+	display:none;
+	background-color:black;
+}
+
+.image1:hover .image1a{
+	display: table-cell;
+	-webkit-transition:all 0.5s ease-in-out;
+}.image2:hover .image1a{
+	display: table-cell;
+	-webkit-transition:all 0.5s ease-in-out;
+}.image3:hover .image1a{
+	display: table-cell;
+	-webkit-transition:all 0.5s ease-in-out;
+}.image4:hover .image1a{
+	display: table-cell;
+	-webkit-transition:all 0.5s ease-in-out;
+}.image5:hover .image1a{
+	display: table-cell;
+	-webkit-transition:all 0.5s ease-in-out;
+}.image6:hover .image1a{
+	display: table-cell;
+	-webkit-transition:all 0.5s ease-in-out;
+}.image7:hover .image1a{
+	display: table-cell;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+.image1:hover{
+	background-size:107% 105%;
+	background-position:center center;
+	transition: all 0.5s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective:1000px;
+}.image2:hover{
+	background-size:107% 105%;
+	background-position:center center;
+	transition: all 0.5s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective:1000px;
+}.image3:hover{
+	background-size:107% 105%;
+	background-position:center center;
+	transition: all 0.5s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective:1000px;
+}.image4:hover{
+	background-size:107% 105%;
+	background-position:center center;
+	transition: all 0.5s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective:1000px;
+}.image5:hover{
+	background-size:107% 105%;
+	background-position:center center;
+	transition: all 0.5s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective:1000px;
+}.image6:hover{
+	background-size:107% 105%;
+	background-position:center center;
+	transition: all 0.5s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective:1000px;
+}.image7:hover{
+	background-size:107% 105%;
+	background-position:center center;
+	transition: all 0.5s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective:1000px;
+}
+
+.image2{
+	background-image:url(../img/package.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	
+}
+
+.image3{
+	background-image:url(../img/package.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	
+}
+
+.image4{
+	background-image:url(../img/package.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	
+}
+
+.image5{
+	background-image:url(../img/package.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	
+}
+
+.image6{
+	background-image:url(../img/package.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	
+}
+
+.image7{
+	background-image:url(../img/package.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	
+}
+
+.aks1{
+	background-image:url(../img/luxury.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	opacity:0.6;
+}
+.aks1:hover{
+	opacity:1;
+	background-size:107% 105%;
+	background-position:center center;
+	transition: all 0.5s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective:1000px;
+}
+
+.zz{
+	display:block;
+}
+.xx:hover .zz{
+	display:none;
+}
+.aks2{
+	background-image:url(../img/dftwh_main_homepage_approved_3a.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	opacity:0.6;
+}
+
+.aks2:hover{
+	opacity:1;
+	background-size:107% 105%;
+	background-position:center center;
+	transition: all 0.5s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective:1000px;
+}
+
+.aks3{
+	background-image:url(../img/bay-edtrl-wedding-guide-080516-wedding-shoes.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	opacity:0.6;
+}
+
+.aks3:hover{
+	opacity:1;
+	background-size:107% 105%;
+	background-position:center center;
+	transition: all 0.5s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective:1000px;
+}
+
+.aks4{
+	background-image:url(../img/Wedding-set-up_1074.jpg);
+	background-position:center center;
+	background-size:100% 100%;
+	opacity:0.6;
+}
+
+.aks4:hover{
+	opacity:1;
+	background-size:107% 105%;
+	background-position:center center;
+	transition: all 0.5s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective:1000px;
+}
+
+.serv1:hover{
+	padding:0px 10px;
+	transition: all 0.5s ease-in-out;
+}
+
+.submenu-hov{
+	background-color:white;
+	-webkit-transition:background-color 0.2s;
+}
+.submenu-hov:hover{
+	background-color:lightgray;
+}
+.submenu-zero{
+	transition:all 0.3s;
+	padding:10px 30px;
+}
+
+.submenu-zero:hover{
+	opacity:0.7;
+}
+
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width:400px;
+  height:200px
+}
+/* End carousel */
+
+
+@media only screen and (max-width:768px){
+.full-with-f-mobile{
+	width:100%!important;
+	text-align:right!important;
+}
+}
+
